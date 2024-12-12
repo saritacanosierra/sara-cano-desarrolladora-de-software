@@ -1,0 +1,114 @@
+.header-text h1 {
+  color: #ec014c;
+}
+
+.header-text h3 {
+  color: #ec014c;
+}
+
+.menu-active {
+  background-color: #ec014c;
+}
+.about-title {
+  color: #ec014c;
+}
+.btn-link:hover {
+  color: #ec014c;
+}
+.resume-date {
+  color: #ec014c;
+}
+#form-submit {
+  background-color: #ec014c;
+}
+.list-unstyled {
+  color: #ec014c;
+}
+
+/*----------------------*/
+.circle {
+  border-top-color: #ec014c !important;
+}
+.circle:before {
+  border-top-color: #ec014c !important;
+}
+.circle:after {
+  border-top-color: #ec014c !important;
+}
+.social-link a {
+  color: #ec014c;
+}
+.download-resume i {
+  color: #ec014c;
+}
+.download-resume a:hover {
+  color: #ec014c;
+  border-bottom: 1px solid #ec014c;
+}
+.skillbar-bar {
+  background: #ec014c;
+}
+#accordion i {
+  color: #ec014c;
+}
+.card-header {
+  border-bottom: 1px solid #ec014c;
+}
+.nav-tabs .nav-link i {
+  color: #ec014c;
+}
+.icon-contact i {
+  color: #ec014c;
+}
+.icon-link:hover i {
+  color: #ec014c;
+}
+#form-submit:hover {
+  background-color: #ec014c;
+}
+.form-control:focus {
+  border-color: #ec014c;
+}
+/*-------------------------------*/
+.page-title i {
+  color: #ec014c;
+}
+.sub-title i {
+  color: #ec014c;
+}
+.skillbar {
+  border: 1px solid #ec014c;
+}
+.resume-inner:after {
+  background-color: #ec014c;
+}
+.resume-date {
+  border: 1px solid #ec014c;
+}
+span.resume-date:after {
+  background: #ec014c;
+}
+.resume-row:after {
+  background: #ec014c;
+}
+/*-------------------------------*/
+.page-title h2 {
+  border-bottom: 1px solid #ec014c;
+}
+.sub-title h3 {
+  border-bottom: 1px solid #ec014c;
+}
+.card {
+  border-color: #ec014c;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: #ec014c #ec014c #ec014c;
+}
+.nav-tabs {
+  border-bottom: 1px solid #ec014c;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: #ec014c #ec014c #ec014c;
+}

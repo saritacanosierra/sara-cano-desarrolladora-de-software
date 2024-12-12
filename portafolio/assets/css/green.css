@@ -1,0 +1,114 @@
+.header-text h1 {
+  color: green;
+}
+
+.header-text h3 {
+  color: green;
+}
+
+.menu-active {
+  background-color: green;
+}
+.about-title {
+  color: green;
+}
+.btn-link:hover {
+  color: green;
+}
+.resume-date {
+  color: green;
+}
+#form-submit {
+  background-color: green;
+}
+.list-unstyled {
+  color: green;
+}
+
+/*----------------------*/
+.circle {
+  border-top-color: green !important;
+}
+.circle:before {
+  border-top-color: green !important;
+}
+.circle:after {
+  border-top-color: green !important;
+}
+.social-link a {
+  color: green;
+}
+.download-resume i {
+  color: green;
+}
+.download-resume a:hover {
+  color: green;
+  border-bottom: 1px solid green;
+}
+.skillbar-bar {
+  background: green;
+}
+#accordion i {
+  color: green;
+}
+.card-header {
+  border-bottom: 1px solid green;
+}
+.nav-tabs .nav-link i {
+  color: green;
+}
+.icon-contact i {
+  color: green;
+}
+.icon-link:hover i {
+  color: green;
+}
+#form-submit:hover {
+  background-color: green;
+}
+.form-control:focus {
+  border-color: green;
+}
+/*-------------------------------*/
+.page-title i {
+  color: green;
+}
+.sub-title i {
+  color: green;
+}
+.skillbar {
+  border: 1px solid green;
+}
+.resume-inner:after {
+  background-color: green;
+}
+.resume-date {
+  border: 1px solid green;
+}
+span.resume-date:after {
+  background: green;
+}
+.resume-row:after {
+  background: green;
+}
+/*-------------------------------*/
+.page-title h2 {
+  border-bottom: 1px solid green;
+}
+.sub-title h3 {
+  border-bottom: 1px solid green;
+}
+.card {
+  border-color: green;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: green green green;
+}
+.nav-tabs {
+  border-bottom: 1px solid green;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: green green green;
+}

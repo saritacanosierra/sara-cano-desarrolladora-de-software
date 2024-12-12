@@ -1,0 +1,114 @@
+.header-text h1 {
+  color: #89ad29;
+}
+
+.header-text h3 {
+  color: #89ad29;
+}
+
+.menu-active {
+  background-color: #89ad29;
+}
+.about-title {
+  color: #89ad29;
+}
+.btn-link:hover {
+  color: #89ad29;
+}
+.resume-date {
+  color: #89ad29;
+}
+#form-submit {
+  background-color: #89ad29;
+}
+.list-unstyled {
+  color: #89ad29;
+}
+
+/*----------------------*/
+.circle {
+  border-top-color: #afd448!important;
+}
+.circle:before {
+  border-top-color: #afd448!important;
+}
+.circle:after {
+  border-top-color: #afd448!important;
+}
+.social-link a {
+  color: #afd448;
+}
+.download-resume i {
+  color: #afd448;
+}
+.download-resume a:hover {
+  color: #afd448;
+  border-bottom: 1px solid #afd448;
+}
+.skillbar-bar {
+  background: #afd448;
+}
+#accordion i {
+  color: #afd448;
+}
+.card-header {
+  border-bottom: 1px solid #afd448;
+}
+.nav-tabs .nav-link i {
+  color: #afd448;
+}
+.icon-contact i {
+  color: #afd448;
+}
+.icon-link:hover i {
+  color: #afd448;
+}
+#form-submit:hover {
+  background-color: #afd448;
+}
+.form-control:focus {
+  border-color: #afd448;
+}
+/*-------------------------------*/
+.page-title i {
+  color: #c8d0b2;
+}
+.sub-title i {
+  color: #c8d0b2;
+}
+.skillbar {
+  border: 1px solid #c8d0b2;
+}
+.resume-inner:after {
+  background-color: #c8d0b2;
+}
+.resume-date {
+  border: 1px solid #c8d0b2;
+}
+span.resume-date:after {
+  background: #c8d0b2;
+}
+.resume-row:after {
+  background: #c8d0b2;
+}
+/*-------------------------------*/
+.page-title h2 {
+  border-bottom: 1px solid #e9f2d0;
+}
+.sub-title h3 {
+  border-bottom: 1px solid #e9f2d0;
+}
+.card {
+  border-color: #e9f2d0;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: #e9f2d0 #e9f2d0 #fff;
+}
+.nav-tabs {
+  border-bottom: 1px solid #e9f2d0;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: #e9f2d0 #e9f2d0 #fff;
+}

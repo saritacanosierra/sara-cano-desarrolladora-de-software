@@ -1,0 +1,40 @@
+@import 'colores';
+
+#cargando {
+    display: none;
+}
+body{
+    background-image: url(../img/fondo.svg);
+}
+.fondoCafe{
+    background-color: $cafe;
+}
+.fondoVerde{
+    background-color: $verde;
+}
+.colorVerde{
+    color: $verde;
+}
+.colorCafe{
+    color:  $cafe;
+}
+
+.precio{
+    color: $verde;
+}
+
+.info-card {
+    padding: 10px 20px;
+    color: $verde;
+}
+
+.info-card span {
+    font-size: 16px;
+    font-weight: 300;
+}
+h4{
+    font-size: 20px;
+}
+.compras{
+    margin-top: 90px;
+}

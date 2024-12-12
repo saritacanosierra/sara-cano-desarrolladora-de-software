@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ee6b2f;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1100px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 30px 10px;
+  padding: 20px 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 420px;
+}
+
+.container .card .imgBx {
+  position: relative;
+  top: -40px;
+  left: 20px;
+  z-index: 1;
+  width: 260px;
+  height: 260px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 3px;
+  margin-top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.container .card .content p {
+  text-align: justify;
+}
+
+.container .card .content .info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .card .content .info .tipo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container .card .content .info .debil {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container .card .content .info .fuerte {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container .card .content .info .hierba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #5e8f67;
+  color: #fff;
+}
+
+.container .card .content .info .fuego {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #ff7f27;
+  color: #fff;
+}
+
+.container .card .content .info .agua {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #68a5b9;
+  color: #fff;
+}
+
+.container .card .content .info .bicho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #a8cb71;
+  color: #fff;
+}
+
+.container .card .content .info .volador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #8a8685;
+  color: #fff;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0, 3;
+}

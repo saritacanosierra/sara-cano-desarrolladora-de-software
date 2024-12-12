@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+a{
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a span {
+    transition: 1s;
+}
+
+a:hover span:nth-child(1) {
+    transition: 1s;
+    margin-right: px;
+}
+
+a:hover span:nth-child(1)::after {
+    content: " DO";
+}
+
+a:hover span:nth-child(2) {
+    visibility: hidden;
+    transition: 0s;
+}
+
+a:hover span:nth-child(4) {
+    visibility: hidden;
+    transition: 0s;
+}
+
+a:hover span {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px #ff0000;
+}

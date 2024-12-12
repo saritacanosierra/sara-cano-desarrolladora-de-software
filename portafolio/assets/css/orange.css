@@ -1,0 +1,114 @@
+.header-text h1 {
+  color: #ffa21d;
+}
+
+.header-text h3 {
+  color: #ffa21d;
+}
+
+.menu-active {
+    background-color: #ffa21d;
+  }
+  .about-title {
+    color: #ffa21d;
+  }
+  .btn-link:hover {
+    color: #ffa21d;
+  }
+  .resume-date {
+    color: #ffa21d;
+  }
+  #form-submit {
+    background-color: #ffa21d;
+  }
+  .list-unstyled {
+    color: #ffa21d;
+  }
+  
+  /*----------------------*/
+  .circle {
+    border-top-color: #ffa21d!important;
+  }
+  .circle:before {
+    border-top-color: #ffa21d!important;
+  }
+  .circle:after {
+    border-top-color: #ffa21d!important;
+  }
+  .social-link a {
+    color: #ffa21d;
+  }
+  .download-resume i {
+    color: #ffa21d;
+  }
+  .download-resume a:hover {
+    color: #ffa21d;
+    border-bottom: 1px solid #ffa21d;
+  }
+  .skillbar-bar {
+    background: #ffa21d;
+  }
+  #accordion i {
+    color: #ffa21d;
+  }
+  .card-header {
+    border-bottom: 1px solid #ffa21d;
+  }
+  .nav-tabs .nav-link i {
+    color: #ffa21d;
+  }
+  .icon-contact i {
+    color: #ffa21d;
+  }
+  .icon-link:hover i {
+    color: #ffa21d;
+  }
+  #form-submit:hover {
+    background-color: #ffa21d;
+  }
+  .form-control:focus {
+    border-color: #ffa21d;
+  }
+  /*-------------------------------*/
+  .page-title i {
+    color: #ffa21d;
+  }
+  .sub-title i {
+    color: #ffa21d;
+  }
+  .skillbar {
+    border: 1px solid #ffa21d;
+  }
+  .resume-inner:after {
+    background-color: #ffa21d;
+  }
+  .resume-date {
+    border: 1px solid #ffa21d;
+  }
+  span.resume-date:after {
+    background: #ffa21d;
+  }
+  .resume-row:after {
+    background: #ffa21d;
+  }
+  /*-------------------------------*/
+  .page-title h2 {
+    border-bottom: 1px solid #ffa21d;
+  }
+  .sub-title h3 {
+    border-bottom: 1px solid #ffa21d;
+  }
+  .card {
+    border-color: #ffa21d;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    border-color: #ffa21d #ffa21d #ffa21d;
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #ffa21d;
+  }
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
+    border-color: #ffa21d #ffa21d #ffa21d;
+  }

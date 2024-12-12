@@ -1,0 +1,47 @@
+#cargando {
+  display: none;
+}
+
+body {
+  background-image: url(../img/fondo.svg);
+}
+
+.fondoCafe {
+  background-color: #773611ff;
+}
+
+.fondoVerde {
+  background-color: #b6bb18ff;
+}
+
+.colorVerde {
+  color: #b6bb18ff;
+}
+
+.colorCafe {
+  color: #773611ff;
+}
+
+.precio {
+  color: #b6bb18ff;
+}
+
+.info-card {
+  padding: 10px 20px;
+  color: #b6bb18ff;
+}
+
+.info-card span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.compras {
+  margin-top: 90px;
+}
+
+/*# sourceMappingURL=stylecarrito.css.map */

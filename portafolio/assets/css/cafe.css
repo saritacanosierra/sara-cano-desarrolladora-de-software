@@ -1,0 +1,114 @@
+.header-text h1 {
+  color: rgba(136, 93, 44, 0.87);
+}
+
+.header-text h3 {
+  color: rgba(136, 93, 44, 0.87);
+}
+
+.menu-active {
+  background-color: rgba(136, 93, 44, 0.87);
+}
+.about-title {
+  color: rgba(136, 93, 44, 0.87);
+}
+.btn-link:hover {
+  color: rgba(136, 93, 44, 0.87);
+}
+.resume-date {
+  color: rgba(136, 93, 44, 0.87);
+}
+#form-submit {
+  background-color: rgba(136, 93, 44, 0.87);
+}
+.list-unstyled {
+  color: rgba(136, 93, 44, 0.87);
+}
+
+/*----------------------*/
+.circle {
+  border-top-color: rgba(136, 93, 44, 0.87) !important;
+}
+.circle:before {
+  border-top-color: rgba(136, 93, 44, 0.87) !important;
+}
+.circle:after {
+  border-top-color: rgba(136, 93, 44, 0.87) !important;
+}
+.social-link a {
+  color: rgba(136, 93, 44, 0.87);
+}
+.download-resume i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.download-resume a:hover {
+  color: rgba(136, 93, 44, 0.87);
+  border-bottom: 1px solid rgba(136, 93, 44, 0.87);
+}
+.skillbar-bar {
+  background: rgba(136, 93, 44, 0.87);
+}
+#accordion i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.card-header {
+  border-bottom: 1px solid rgba(136, 93, 44, 0.87);
+}
+.nav-tabs .nav-link i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.icon-contact i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.icon-link:hover i {
+  color: rgba(136, 93, 44, 0.87);
+}
+#form-submit:hover {
+  background-color: rgba(136, 93, 44, 0.87);
+}
+.form-control:focus {
+  border-color: rgba(136, 93, 44, 0.87);
+}
+/*-------------------------------*/
+.page-title i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.sub-title i {
+  color: rgba(136, 93, 44, 0.87);
+}
+.skillbar {
+  border: 1px solid rgba(136, 93, 44, 0.87);
+}
+.resume-inner:after {
+  background-color: rgba(136, 93, 44, 0.87);
+}
+.resume-date {
+  border: 1px solid rgba(136, 93, 44, 0.87);
+}
+span.resume-date:after {
+  background: rgba(136, 93, 44, 0.87);
+}
+.resume-row:after {
+  background: rgba(136, 93, 44, 0.87);
+}
+/*-------------------------------*/
+.page-title h2 {
+  border-bottom: 1px solid rgba(136, 93, 44, 0.87);
+}
+.sub-title h3 {
+  border-bottom: 1px solid rgba(136, 93, 44, 0.87);
+}
+.card {
+  border-color: rgba(136, 93, 44, 0.87);
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: rgba(136, 93, 44, 0.87) rgba(136, 93, 44, 0.87) rgba(136, 93, 44, 0.87);
+}
+.nav-tabs {
+  border-bottom: 1px solid rgba(136, 93, 44, 0.87);
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: rgba(136, 93, 44, 0.87) rgba(136, 93, 44, 0.87) rgba(136, 93, 44, 0.87);
+}
