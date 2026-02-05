@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,9 +13,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/ihover.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/light-green-1.css" class="s-color" />
     <link rel="stylesheet" type="text/css" href="assets/css/switch.css" />
@@ -467,7 +464,6 @@
                                         class="fab fa-github"></i></a>
                                 <i style="width: 20%;" class="fab fa-figma"></i>
                             </div>
-                        </footer>
                         </footer>
                     </section><!-- /#about -->
                     <!-- RESUME PAGE -->
@@ -1334,106 +1330,8 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.wrap-all-content -->
-    <!-- JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/parallax.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/validator.min.js"></script>
-    <script src="assets/js/form-scripts.js"></script>
-    <script src="assets/js/switch.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Selecciona todos los enlaces de galería de proyecto
-        const projectGalleryLinks = document.querySelectorAll('.project-gallery');
-        
-        projectGalleryLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Obtiene el array de imágenes del atributo data
-                const images = JSON.parse(this.getAttribute('data-images'));
-                
-                // Crea un contenedor para el carrusel
-                const carouselContainer = document.createElement('div');
-                carouselContainer.id = 'projectImageCarousel';
-                carouselContainer.className = 'carousel slide';
-                carouselContainer.setAttribute('data-ride', 'carousel');
-                
-                // Crea el contenedor de los elementos del carrusel
-                const carouselInner = document.createElement('div');
-                carouselInner.className = 'carousel-inner';
-                
-                // Agrega las imágenes y videos al carrusel
-                images.forEach((imageSrc, index) => {
-                    const carouselItem = document.createElement('div');
-                    carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
-                    
-                    // Si es un video, crea un elemento de video
-                    if (imageSrc.endsWith('.mp4')) {
-                        const videoElement = document.createElement('video');
-                        videoElement.src = imageSrc;
-                        videoElement.controls = true;
-                        videoElement.className = 'd-block w-100';
-                        carouselItem.appendChild(videoElement);
-                    } else {
-                        const imageElement = document.createElement('img');
-                        imageElement.src = imageSrc;
-                        imageElement.className = 'd-block w-100';
-                        carouselItem.appendChild(imageElement);
-                    }
-                    
-                    carouselInner.appendChild(carouselItem);
-                });
-                
-                // Agrega controles de navegación
-                const prevControl = document.createElement('a');
-                prevControl.className = 'carousel-control-prev';
-                prevControl.href = '#projectImageCarousel';
-                prevControl.setAttribute('role', 'button');
-                prevControl.setAttribute('data-slide', 'prev');
-                prevControl.innerHTML = `
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                `;
-                
-                const nextControl = document.createElement('a');
-                nextControl.className = 'carousel-control-next';
-                nextControl.href = '#projectImageCarousel';
-                nextControl.setAttribute('role', 'button');
-                nextControl.setAttribute('data-slide', 'next');
-                nextControl.innerHTML = `
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                `;
-                
-                // Ensambla el carrusel
-                carouselContainer.appendChild(carouselInner);
-                carouselContainer.appendChild(prevControl);
-                carouselContainer.appendChild(nextControl);
-                
-                // Abre el carrusel en un popup
-                $.magnificPopup.open({
-                    items: {
-                        src: carouselContainer,
-                        type: 'inline'
-                    },
-                    callbacks: {
-                        open: function() {
-                            // Inicializa el carrusel de Bootstrap
-                            $('.carousel').carousel();
-                        }
-                    }
-                });
-            });
-        });
-    });
-    </script>
+    <!-- JS (vanilla: sin jQuery ni plugins) -->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
